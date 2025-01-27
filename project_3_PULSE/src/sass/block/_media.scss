@@ -1,0 +1,141 @@
+@media(max-width: 1200px){
+	
+}
+@media(max-width: 991px){
+	.promo{
+			padding: 20px 30px ;
+		}
+	.advant{
+		&__wrapper{
+		   flex-direction: column;
+		   justify-content: center;
+		   align-items: center;
+		   width: 100%;
+		}
+		&__icon{
+			margin-top: 20px;
+		}
+		&__text{
+			width: 400px;
+		}
+	}
+	.consultation{
+		padding-left:  30px;
+
+		.title_white{
+			font-size: 33px;
+		}
+	}
+	.review{
+		&__text{
+			width: 700px;
+		}
+	}
+}
+@media(max-width: 767px){
+	.promo{
+		.header{
+			&__official{
+				display: none;
+			}
+		}
+	} 
+	.catalog{
+		&__tabs{
+			display: flex;
+			flex-direction: column;
+		}
+
+
+	}
+	.review{
+		margin-bottom: 50px;
+		&__item {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		&__icon{
+			width: 200px;
+			height: 200px;
+			margin-bottom: 40px;
+		}
+		&__text{
+			width: 460px;
+		}
+	}
+} 
+
+@media(max-width:575px){
+	.promo{
+		.header{
+			flex-direction: column;
+			&__phone{
+				margin:  20px 0;
+			}
+		}
+		&__header{
+			font-size: 32px;
+		}
+		&__subheader{
+			font-size: 20px;
+		}
+		&__icons{
+			display: block;
+			margin: 0 auto;
+		}
+		&__icon{
+		   display: flex;
+		   img{
+			margin: 10px 30px ;
+		   }
+		}
+		.button_main{
+			width: 260px;
+		}
+	}
+	.advant{
+		&__text{
+			width: 285px;
+		}
+	}
+	.consultation{
+		padding:30px ;
+		min-height: 600px;
+		.title_white{
+			font-size: 25px;
+		}
+		&__descr{
+			font-size: 17px;
+		}
+		.feed-form{
+			input{
+				width: 220px;
+			}
+		}
+		.button_submit{
+			width: 262px;
+		}
+	}
+	.catalog{
+		&__tab{
+			margin: 0 20px;
+		}
+	}
+	.review{
+		&__text{
+		   width: 300px; 
+		}
+		
+	}
+	.footer{
+		&__info{
+			width: 200px;
+		}
+		&__address{
+			font-size: 15px ;
+		}
+
+	}
+}

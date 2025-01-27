@@ -1,0 +1,295 @@
+@media (max-width: 1024px)
+	.menu
+		&_link
+			font-size: 13px
+		&_item
+			padding-right: 20px
+
+@media (max-width: 991px)
+	.menu
+		&_link
+			font-size: 10px
+		&_item
+			padding-right: 18px
+	.subheader
+		&_official
+			font-size: 12px
+		&_phone
+			font-size: 18px
+		&_btn
+			width: 165px
+			height: 45px
+	.promo
+		&_header
+			font-size: 40px
+		&_subheader
+			font-size: 33px
+		&_descr
+			font-size: 15px
+	.reasons
+		.title
+			font-size: 35px
+		&_wrapper
+			&_item
+				display: flex
+				flex-direction: column
+				padding-left: 0px
+				align-items: center
+				justify-content: center
+			&_text
+				width: 350px
+	.mobile
+		&_item
+			width: 230px
+			height: 220px
+			&_subtitle
+				font-size: 15px
+	.car
+		&_img
+			width: 100%
+
+@media (max-width: 767px)
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0, 0, 0, 0.8)
+		transition: 0.6s all
+		&_active
+			left: 0
+		&_link
+			font-size: 15px
+		&_item
+			margin: 10px 0
+			padding-right: 0
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 30%
+		transform: translateY(50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 4px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+				
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+	.subheader
+		&_logo
+			margin-top: 20px
+			max-width: 90%
+		&_official
+			font-size: 10px
+		&_call
+			font-size: 10px
+		&_phone 
+			display: block
+			font-size: 16px
+			text-align: center
+			margin-top: 10px
+		&_btn
+			display: block
+			width: 200px
+			height: 33px
+			font-size: 13px
+			margin: 0 auto
+			margin-top: 15px
+	.promo
+		padding: 100px 0 20px 0
+		min-height: 650px
+		&_header
+			margin-top: 49px
+			font-size: 30px
+		&_subheader
+			font-size: 23px
+		&_descr
+			font-size: 14px
+			line-height: 20	px
+		&_btn
+			margin-top: 80px
+			line-height: 23px
+			width: 200px
+			height: 43px
+	.reasons
+		.title
+			font-size: 26px
+		&_wrapper
+			&_item
+				margin-top: 30px
+			&_text
+				margin-top: 20px	
+				width: 450px
+	.mobile
+		.title
+			font-size: 30px
+		&_item
+			width: 330px
+			height: 360px	
+			padding-top: 160px
+			&_subtitle
+				font-size: 20px
+			&_plus
+				width: 25px
+				height: 25px
+	.car
+		padding-bottom: 0
+		.title
+			font-size: 30px
+		
+		&_img
+			margin-top: 123px
+			width: 100%
+	.terms
+		padding-bottom: 64px
+		.title 
+			font-size: 30px
+		&_block_title
+			font-size: 18px
+		.red
+			font-size: 18px
+		&_list
+			li
+				font-size: 14px
+				line-height: 20px
+	.world
+		min-height: 400px
+		.title
+			font-size: 30px
+		&_city
+			font-size: 13px
+	footer
+		display: flex
+		flex-direction: column
+		.social
+			margin-bottom: 20px
+			&_item
+				width: 30px
+				height: 30px
+				img
+					width: 15px
+					height: 15px
+		.info
+			margin-bottom: 20px
+			&_divider
+				width: 280px
+				height: 5px
+			&_title
+				margin-top: 20px
+				a
+					font-size: 13px
+			&_subtitle
+				margin-top: 8px
+				a
+					font-size: 8px
+					
+@media (max-width: 576px)
+	header
+		height: 42px
+	nav
+		height: 42px
+	.menu
+		width: 80%
+		&_item
+			width: 100%
+			text-align: center
+			padding: 4px 0
+		&_link
+			display: block
+
+	.hamburger 
+		right: 30px
+		top: 20%
+
+	.subheader
+		top: 42px
+		&_phone
+			font-size: 12px
+		&_btn
+			width: 135px
+			height: 33px
+			font-size: 10px
+			margin-top: 12px
+	.promo
+		&_header
+			font-size: 25px
+		&_subheader
+			font-size: 19px
+		&_descr
+			font-size: 12px
+		&_btn
+			width: 180px
+			height: 43px
+			font-size: 12px
+	.reasons
+		.title
+			font-size: 16px
+		&_wrapper
+			&_text
+				font-size: 14px
+				width: 280px
+	.mobile
+		padding-top: 20px
+		.title	
+			font-size: 18px	
+		&_item 
+			padding-top: 70px
+			width: 280px
+			height: 280px
+		&_subtitle
+			font-size: 24px
+	.car
+		background: #000000
+		height: 400px
+		padding-top: 20px
+		.title
+			display: none
+		.subtitle
+			display: none
+		.black_bg
+			display: none	
+		&_img
+			margin-top: 30px
+		&_descr
+			font-weight: 300
+			font-size: 17px
+			color: #ffffff
+	.terms
+		padding:20px 0 40px 0
+		.title
+			font-size: 18px
+		&_block
+			margin: 23px
+	.world
+		.title
+			font-size: 18px
+	footer
+		.info
+			&_divider
+				width: 200px
+				height: 4px
+
+
+		

@@ -1,0 +1,35 @@
+.button{
+	width: 153px;
+	height: 32px;
+	background: $main-color;
+	border-radius: 5px;  
+	border: none;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 5px;
+	&_main{
+		margin-top: 68px;
+		width: 300px;
+		height: 50px;
+		font-weight: 500;
+		font-size: 16px;
+		 text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+	&_submit{
+		width: 343px;
+		height: 58px;
+		font-weight: 500;
+		font-size: 16px;
+		color: #FFFFFF;
+	}
+	&_mini{
+		width: 140px;
+		height: 44px;
+		background: #C70101;
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "edu_project_5_delivery",
+  "description": "сайт о компании которая предоставляет авиа-транспортные перевозки",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  }
+}

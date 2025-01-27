@@ -1,0 +1,43 @@
+.advant{
+	min-height: 330px;
+	padding: 73px 0 63px 0;
+	background: #F6F6F6;
+	&__wrapper{
+		margin-top: 65px;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
+	&__icon{
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+		&_animated{
+			animation: heartbeat 1s ease infinite;
+			&:hover{
+				animation-play-state: paused;
+			}
+		}
+	}
+	&__descr{
+		margin-top: 30px;
+		font-weight: 700;
+		font-size: 18px;
+		text-align: center;
+		color: #0D0D0D;
+	}
+	&__text{
+		width: 250px;
+		margin-top: 20px;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 20px;
+		text-align: center;
+		color: #0D0D0D;
+		span{
+			color: $main-color;
+		}
+	}
+
+}

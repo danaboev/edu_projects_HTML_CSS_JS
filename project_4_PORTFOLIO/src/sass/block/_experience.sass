@@ -1,0 +1,65 @@
+.experience
+	margin-top: 120px
+	&__wrapper
+		padding: 	60px 65px 0 65px
+		display: grid
+		grid-template-columns: repeat(2, 425px)
+		column-gap:132px
+	&__column
+		&-title
+			position: relative
+			padding-left: 35px
+			&::before
+				content: ''
+				position: absolute
+				width: 15px
+				height: 15px
+				background:  $main-color
+				border-radius: 100%
+				left: 0
+				top: 50%
+				transform: translateY(-50%)
+		ul
+			list-style: none
+			li
+				position: relative
+				&::after
+					content: ''
+					width: 1px
+					height: calc( 100% + 16px )
+					position: absolute
+					top: -24px
+					left: -33px
+					background-color: #000
+	&__item
+		position: relative
+		&::before
+			content: ''
+			height: 1px
+			width: 80px
+			position: absolute
+			background-color: #000
+			top: 60px
+			left: -33px
+
+		&-head
+			position: relative
+			padding: 43px 0 0 100px
+		&-icon
+			background-color: green
+			position: absolute
+			top: 45px
+			left: 45px
+			@include before_circle
+			img
+				position: absolute
+				top: 15px
+				left: 15px
+		&-location
+			line-height: 18px
+			font-size: 12px
+		&-body
+			padding-left: 43px
+			margin-top: 10px
+			font-size: 12px
+			line-height: 18px
