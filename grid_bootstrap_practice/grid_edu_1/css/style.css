@@ -1,0 +1,11 @@
+.homework .grid-container{
+	width: 1140px;
+	display: grid;
+	grid-template-columns: 260px ;
+}
+
+.element{
+	width: 240px;
+	height: 260px;
+
+}

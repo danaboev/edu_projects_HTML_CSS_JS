@@ -1,0 +1,362 @@
+	<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap </title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+				<div class="container-fluid">
+				  <a class="navbar-brand" href="#">Main</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Link to social</a>
+					  </li>
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  Tours
+						</a>
+						<ul class="dropdown-menu">
+						  <li><a class="dropdown-item" href="#">Volcanoes</a></li>
+						  <li><a class="dropdown-item" href="#">Valley of Geysers</a></li>
+						  <li><hr class="dropdown-divider"></li>
+						  <li><a class="dropdown-item" href="#">Pacific Ocean</a></li>
+						</ul>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link disabled">Disabled</a>
+					  </li>
+					</ul>
+					<form class="d-flex" role="search">
+					  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					  <button class="btn btn-outline-light" type="submit">Search</button>
+					</form>
+				  </div>
+				</div>
+			  </nav>
+		</div>
+		
+		<div class="container">
+
+			<div class="alert alert-primary mt-3" role="alert">
+				Photo blog about Kamchatka & Volcanoes
+			</div>
+
+			<h1>Photo Bears  <span class="badge bg-secondary mt-2">New</span></h1>
+			<button type="button" class="btn btn-primary">See more</button>
+		</div>
+
+		<div class="container">
+			<div id="carouselExampleControls" class="carousel slide mt-5 mb-5" data-bs-ride="carousel">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="img/kamchatka_1.jpeg" class="d-block w-100" alt="kamchatka">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/kamchatka_2.jpeg" class="d-block w-100" alt="kamchatka">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/kamchatka_3.jpeg" class="d-block w-100" alt="kamchatka">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/kamchatka_4.jpeg" class="d-block w-100" alt="kamchatka">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/kamchatka_5.jpeg" class="d-block w-100" alt="kamchatka">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/kamchatka_6.jpeg" class="d-block w-100" alt="kamchatka">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/kamchatka_7.jpeg" class="d-block w-100" alt="kamchatka">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/kamchatka_8.jpeg" class="d-block w-100" alt="kamchatka">
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			  </div>
+		</div>
+
+		<div class="container">
+
+			<p>
+				<a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">First tour </a>
+				<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Second tour</button>
+				<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Third</button>
+			  </p>
+			  <div class="row">
+				<div class="col">
+				  <div class="collapse multi-collapse" id="multiCollapseExample1">
+					<div class="card card-body">
+						Volcanoes
+					</div>
+				  </div>
+				</div>
+				<div class="col">
+				  <div class="collapse multi-collapse" id="multiCollapseExample2">
+					<div class="card card-body">
+					 Valley of Geysers
+					</div>
+				  </div>
+				</div>
+				<div class="col">
+					<div class="collapse multi-collapse" id="multiCollapseExample2">
+					  <div class="card card-body">
+					   Pacific Ocean
+					  </div>
+					</div>
+				  </div>
+			  </div>
+
+			  <div class="list-group">
+				<a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+				  Address 
+				</a>
+				<a href="#" class="list-group-item list-group-item-action">Volcanoes</a>
+				<a href="#" class="list-group-item list-group-item-action">Valley of Geysers</a>
+				<a href="#" class="list-group-item list-group-item-action">Pacific Ocean</a>
+				<a class="list-group-item list-group-item-action disabled">Processing</a>
+			  </div>
+		</div>
+
+		  <div class="container">
+			<ul class="nav justify-content-center mt-5">
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="#">All</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Bear</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Snowboarding</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link disabled">Processing</a>
+				</li>
+			  </ul>	
+			<div class="row">
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_1.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_2.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_3.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_4.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_5.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_6.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_7.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_8.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_1.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_2.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_3.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_4.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_5.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_6.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_7.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Ocean</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card mt-5" style="width: 18rem;">
+						<img src="img/kamchatka_8.jpeg" class="card-img-top" alt="kamchatka">
+						<div class="card-body">
+							<h5 class="card-title">Kamchatka</h5>
+							<p class="card-text">Kamchatka Volcanoes & Pacific Ocean & Red caviar</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<nav aria-label="Page navigation example">
+				<ul class="pagination justify-content-center">
+				  <li class="page-item disabled">
+					<a class="page-link">Previous</a>
+				  </li>
+				  <li class="page-item"><a class="page-link" href="#">1</a></li>
+				  <li class="page-item"><a class="page-link" href="#">2</a></li>
+				  <li class="page-item"><a class="page-link" href="#">3</a></li>
+				  <li class="page-item">
+					<a class="page-link" href="#">Next</a>
+				  </li>
+				</ul>
+			  </nav>
+
+		  </div>
+
+		  <footer>
+
+			<div class="container">
+				<address>
+					Address: <br>`
+
+					Kamchatka <br>
+
+					Petropablovsk-Kamchatskiy <br>
+					Elizovo <br>
+
+					bear@example.com <br>
+					
+				</address>
+			</div>
+		  </footer>
+
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+	</body>
+	</html>
