@@ -1,7 +1,7 @@
 # edu_project_2_UBER
 
-edu project UBER + mobile 
--------------------------------------------------------------------------
+## second edu project UBER + mobile 
+
 - html/html5
 - css/css3
 
@@ -14,5 +14,4 @@ edu project UBER + mobile
 - gulp
 - broswer-snyc
 
-сайт был адаптирован под мобильное устройство конечно же по макету (фигма)
-
+project was adaptive to mobile app from figma layout
