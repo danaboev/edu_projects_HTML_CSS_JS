@@ -2,10 +2,10 @@
 
  ## EDU PROJECT_1
 
-первый проект(пет) разработано на технологиях HTML-CSS
+first edu projects on HTML/CSS
 
 HTML:
-- сематические теги
+- sematic teg
 - button
   
 CSS:
